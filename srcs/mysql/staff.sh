@@ -1,0 +1,1 @@
+mysql < wordpress.sql

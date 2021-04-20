@@ -1,0 +1,4 @@
+CREATE user 'admin' IDENTIFIED by 'password';
+CREATE DATABASE IF NOT EXISTS wordpress;
+GRANT ALL PRIVILEGES ON wordpress.* TO 'admin'@'%' IDENTIFIED BY 'password';
+FLUSH PRIVILEGES;
